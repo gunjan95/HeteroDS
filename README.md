@@ -1,0 +1,2 @@
+# Project
+It is a tool which supports various format of data to be inserted in same database and can be retrieved in any format irrespective of the input format. As it can be used to support such applications where data is unstructured and generated in different formats. The main objective of the project is to create a data storage mechanism which supports heterogeneous format of data and not confined to particular data model. Application supports JSON , XML , CSV and HTML format data.
