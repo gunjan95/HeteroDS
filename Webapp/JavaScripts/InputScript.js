@@ -2,10 +2,12 @@ var filedata;
 
 function displaySeparator()
 {
-	//alert('inside fillExample');
+	alert('inside fillExample');
 	var csv = $('#input_select').val();
 	if(csv == 'CSV')
 		document.getElementById("div1").style.display = "";
+	else if(csv == 'CSV2')
+		document.getElementById("div2").style.display = "";
 	else
 		document.getElementById("div1").style.display = "none";
 
@@ -15,7 +17,7 @@ function checkDbSelect()
 {
 	dbname = $('#Inputdb_select').val();
 	var datatype = $('#input_select').val();
-	//alert(dbname);
+	alert(dbname);
 	if(dbname=="--Database--")
 	{
 		alert("Select Database");
